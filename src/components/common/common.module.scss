@@ -1,0 +1,40 @@
+
+
+.common{
+    background-color: F7F7F7;
+    min-height: calc(100vh - 70px);
+    span{
+        color: #0D83FB;
+    }
+    a{
+        text-decoration: none;
+        border: 1px solid #0D83FB;
+        border-radius: 35px;
+        color: #0D83FB;
+        outline: none;
+        &:hover{
+            background-color: #0D83FB;
+            color: white;
+        }
+        &:active{
+            background-color: #066cd3;
+        }
+    }
+    .image{
+        z-index: 1;
+        object-fit: cover;
+        @include keyframes(fade){
+            0%{
+            transform:translateY(-30px) ;
+            }
+           
+           50%{
+            transform:translateY(30px) ;
+           }
+           100%{
+            transform:translateY(-30px) ;
+           }
+          }
+        animation: fade 5s infinite ;
+    }
+}
