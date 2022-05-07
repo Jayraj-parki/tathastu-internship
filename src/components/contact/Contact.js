@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <div className={s.contact + " container-fluid p-0"}>
       <Navbar id="contact" />
-      <div className='col-10 col-sm-8 col-md-6 col-xl-4 mx-auto'>
+      <div className={s.content+' col-10 col-sm-8  col-md-6 col-xl-4 mx-auto'}>
         <h2 className="mt-3 mb-5 col-12 text-center">Contact Us</h2>
         <div className="mb-3">
           <label for="exampleInputname1" className="form-label"> Full Name</label>
