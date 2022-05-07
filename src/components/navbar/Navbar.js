@@ -6,7 +6,7 @@ export default function Navbar({id}) {
 
     return (
         <> 
-            <nav className={s.navbar+" row col-10 mx-auto navbar navbar-expand-lg "}>
+            <nav className={s.navbar+" row col-12 col-md-10 mx-auto navbar navbar-expand-lg "}>
                 <div className="container-fluid">
                     <NavLink className={s.logo+" navbar-brand"} to="/">ReactWebsite</NavLink>
                     <button className="navbar-toggler shadow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
