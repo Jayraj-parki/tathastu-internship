@@ -1,7 +1,8 @@
-
+@import "../../mixin";
+@import "../../var";
 
 .common{
-    background-color: F7F7F7;
+    background-color: #F7F7F7;
     min-height: calc(100vh - 70px);
     span{
         color: #0D83FB;
